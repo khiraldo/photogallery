@@ -1,4 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+    <head>
+        <meta charset="utf-8">
+        <title>TK Photography</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1 style="color: #007D7B;">TK Photography</h1>
+            <h3 id="top">Top</h3>
+            <nav>
+                <ul>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#top">TOP</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="intro">
+                <img id="photog" src="images/images/TK.png" alt="photographer in action"> 
+                <h2 id="about">About</h2>
+                <p>Hello!</p>
+                <p>I'm TK and I'm a photographer.</p>
+                <p>I love looking at life through the lens of my camera. Landscape photography is my speciality and it's taken me all over the world.</p>                                               
+            </section>                       
+            <section id="gallery-heading">
+                <h2 id="gallery">Gallery</h2>
+                <p>Here are some highlights of my work. The locations and year are in the caption.</p>
+            </section>
+            <div id="firstrow"><!--GALLERY-->
+                <div class="column">
+                    <figure>
+                        <img src="images/images/Chile.png" alt="Chile">
+                        <figcaption class="top-left" style="color:black;">Chile, 2001</figcaption>
+                    </figure>
+                </div>
+                <div class="column">
+                    <figure>
+                        <img src="images/images/Guatemala.png" alt="Guatemala">
+                        <figcaption class="top-left">Guatemala, 1997</figcaption>
+                    </figure>
+                </div>
+                <div class="column">                   
+                    <figure>
+                        <img src="images/images/Hawaii.png" alt="Hawaii">
+                        <figcaption class="bottom-right">Hawaii, 2010</figcaption>
+                    </figure>  
+                </div>                             
+            </div>
+            <div id="secondrow">
+                <div class="column">
+                    <figure>
+                        <img src="images/images/Iran.png" alt="Iran">
+                        <figcaption class="top-left" style="color: black;">Iran, 1999</figcaption>
+                    </figure>
+                </div>
+                <div class="column">
+                    <figure>
+                        <img src="images/images/Ireland.png" alt="Ireland">
+                        <figcaption class="bottom-right">Ireland, 2012</figcaption>
+                    </figure>
+                </div>
+                <div class="column">                   
+                    <figure>
+                        <img src="images/images/Italy.png" alt="Italy">
+                        <figcaption class="bottom-left">Italy, 2015</figcaption>
+                    </figure>  
+                </div>                             
+            </div>
+            <div id="thirdrow">
+                <div class="column">
+                    <figure>
+                        <img src="images/images/Moab-Desert.png" alt="Moab Desert">
+                        <figcaption class="bottom-right">Moab Desert, 2020</figcaption>
+                    </figure>
+                </div>
+                <div class="column">
+                    <figure>
+                        <img src="images/images/Rocky-Mountains.png" alt="Rocky Mountains">
+                        <figcaption class="top-left" style="color: black;">Rocky Mountains, 2009</figcaption>
+                    </figure>
+                </div>
+                <div class="column">                   
+                    <figure>
+                        <img src="images/images/Switzerland.png" alt="Switzerland">
+                        <figcaption class="bottom-left" style="color: black;">Switzerland, 2014</figcaption>
+                    </figure>  
+                </div>
+            </div>
+            <div id="lastrow">
+                <div class="column">
+                    <figure>
+                        <img src="images/images/UK.png" alt="United Kingdom">
+                        <figcaption class="bottom-right">UK, 2005</figcaption>
+                    </figure>
+                </div>
+                <div class="column">
+                    <figure>
+                        <img src="images/images/USA.png" alt="USA">
+                        <figcaption class="top-left">USA, 2021</figcaption>
+                    </figure>
+                </div>
+                <div class="column">                   
+                    <figure>
+                        <img src="images/images/Wyoming.png" alt="Wyoming">
+                        <figcaption class="top-left">Wyoming, 2021</figcaption>
+                    </figure>  
+                </div>                                           
+            </div>
+        </main> 
+        <footer>
+            <div id="footer-top">
+                <h2 id="contact">Contact</h2>
+                <p>Please fill out this form and I'll connect with you soon.</p>
+            </div>
+            <form>
+                <label for="name">Name</label><br>  
+                <input type="text" id="name" name="name" placeholder="YOUR FULL NAME"><br>
+                <label for="email">Email</label><br>  
+                <input type="text" id="email" name="email" placeholder="ENTER YOUR EMAIL ADDRESS"><br>
+                <label for="message">Message</label><br>  
+                <input type="text" id="message" name="message" placeholder="WHAT CAN I HELP YOU WITH?"><br> 
+                <input type="submit" value="SUBMIT" id="submit">           
+            </form>          
+            <p id="copy">Copyright 2021 TK Photography</p>
+        </footer>         
+    </body>   
 </html>
