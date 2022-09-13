@@ -68,13 +68,16 @@ p {
 
 #photog {
     float: left;   
-    
+    width: 850px;    
 }
 
-#intro {        
+#intro {      
+    
+    display: block;
     text-align: right;
     padding-right: 15px;
     padding-left: 15px;
+    line-height: 20px;
    
 }
 
